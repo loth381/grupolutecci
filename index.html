@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Grupo Lutecci</title>
+  <meta name="title" content="Grilli - Amazing & Delicious Food">
+  <meta name="description" content="This is a Restaurant html template made by codewithsadee">
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/stylepyxone.css">
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Lutecci</p>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          Calle las Americas #878
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Daily : 8.00 am to 10.00 pm</span>
+      </div>
+
+      <a href="tel:+11234567890" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span"> (+51) 987557744 </span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:booking@restaurant.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span"> contacto@lutecci.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo-lutecci.png" width="200" height="50" alt="Grilli - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Inicio</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span"></span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Nosotros</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#empresas" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Empresas</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contacto" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contacto</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            Restaurant St, Delicious City, <br>
+            London 9578, UK
+          </address>
+
+          <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+
+          <a href="mailto:booking@grilli.com" class="body-4 sidebar-link">booking@grilli.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="tel:+88123123456" class="body-1 contact-number hover-underline">
+            +88-123-123456
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="#" class="btn btn-secondary01">
+        <span class="text text-1">Whatsapp</span>
+
+        <span class="text text-2" aria-hidden="true">Whatsapp</span>
+      </a>
+
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+<!-- 
+        - #HERO
+      -->
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="assets/images/Rectangle.png" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Grrpo Empresarial</p>
+
+            <h1 class="display-1 hero-title slider-reveal"  >
+              Dedicado a la <br>
+              excelencia 
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              con una visión clara y comprometida a liderar el camino hacia el éxito y la sostenibilidad
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+          
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/banner 2 Lutecci-02.png" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+
+            
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with family & feel the joy of mouthwatering food
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <a href="#" class="hero-btn has-after">
+          <img src="./assets/images/logo-parabanner.svg" width="60" height="48" alt="booking icon">
+
+          <span class="label-2 text-center span">Lutecci</span>
+        </a>
+
+      </section>
+
+      <section class="section features text-center" aria-label="features">
+        <div class="container">
+
+          <!-- 
+        - #holding
+      -->
+
+          <ul class="grid-list">
+            <li class="feature-item ">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-2.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">ALIANZAS ESTRATEGICAS​</h3>
+
+                <p class="label-1 card-text">Identificamos oportunidades de inversión en varios sectores para un crecimiento equilibrado y sostenible. Actuamos con honestidad y transparencia, fomentando la creatividad y la tecnología emergente para impulsar el progreso de nuestros clientes.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">SOCIOS ESTRATEGICOS​</h3>
+
+                <p class="label-1 card-text">Colaboramos con líderes en diversos sectores, estableciendo relaciones sólidas. Juntos, exploramos oportunidades, compartimos recursos y creamos sinergias que impulsan la innovación y el crecimiento mutuo hacia nuestros objetivos.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-4.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">HOLDING​</h3>
+
+                <p class="label-1 card-text">Un holding sólido, comprometido con la excelencia e innovación en diversos sectores. Lideramos hacia el éxito y la sostenibilidad, creando valor duradero para nuestros socios y dejando una huella positiva en la comunidad.​</p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #QUIENES SOMOS
+      -->
+
+      <section class="section service  text-center" aria-label="service">
+        <div class="">
+          <footer class="banner01">
+            <img  src="assets/images/banner01.jpeg" alt="Footer imagen">
+            
+        </footer>
+
+
+          
+
+          <section class="special-dish text-center" aria-labelledby="dish-label" id="about">
+                
+            <div class="special-dish-content">
+              <div class="container">
+
+                <h1 class="headline-1 " ">¿Quienes somos?</h1>
+                <p class="section-text" style="font-family: Alieron; text-align: justify;">
+                  Somos una empresa dedicada a ofrecer soluciones de alta calidad en [industria o sector específico]. En [nombre de la empresa], nos destacamos por nuestra pasión y compromiso con la excelencia. Nuestro equipo talentoso trabaja incansablemente para superar expectativas y brindar servicios/productos excepcionales. Descubre cómo podemos contribuir al éxito de tu proyecto.
+                </p>
+                <a href="#" class="logo">
+                  <img src="./assets/images/logo-lutecci-negro.png" width="500" height="200" alt="Grilli - Home" class="img-cover">>
+                </a>
+    
+              </div>
+              
+            </div>
+            <div class="special-dish-banner">
+              <img src="./assets/images/banner02.jpeg" width="940" height="900" loading="lazy" alt="special dish"
+                class="img-cover01">
+            </div>
+    
+          </section>
+  
+        </div>
+      </section>
+
+      <section class="section features text-center" aria-label="features" >
+        <div class="container">
+
+          <p class="section-subtitle label-2">Lutecci</p>
+
+          <h2 class="headline-1 section-title">PARA SERVICIOS DE CALIDAD ,SOMOS TU MEJOR OPCION
+          </h2>
+
+          <ul class="grid-list">
+            <li class="feature-item ">
+              <H1 style="color: black; padding: 30px; font-size:40px ;">MISIÓN</H1>
+              <div class="feature-card">
+
+                
+
+                <p class="label-1 card-text">Que nuestro holding empresarial sea reconocida  como  una empresa de absoluta confianza y sólidos valores. que hace rentable las acciones de sus socios mediante una gestión efectiva, creando una sinergia entre ellas, implementando la eficiencia operativa y manteniendo altos estándares de gobierno corporativo en todas sus unidades de negocio</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <H1 style="color: black; padding: 30px; font-size: 40px; ">VISION</H1>
+              <div class="feature-card">
+
+
+                <p class="label-1 card-text">Ideamos y realizamos las infraestructuras y proporcionamos
+                  los servicios que nuestros clientes requieren para llevar a
+                  cabo su actividad, aportando soluciones adaptadas a sus necesidades, buscando el compromiso entre las expectativas
+                  del cliente, la calidad y la rentabilidad de nuestro trabajo</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <H1 style="color: black; padding: 30px; font-size:40px;">VALORES</H1>
+              <div class="feature-card">
+
+                <p class="label-1 card-text">Todos los que integramos el GRUPO LUTECCI, estamos seriamente comprometidos a trabajar con integridad,, transparencia, innovación, responsabilidad social, la eficiencia operativa, excelencia, ética empresarial, ética profesional, sensibilidad humana. queremos ser los gestores del cambio positivo en la humanidad</p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="section about text-center" aria-labelledby="about-label" >
+        <div class="container">
+          <div class="about-content">
+          
+            <p class="label-2 section-subtitle" id="about-label">Lutecci</p>
+
+            <h2 class="section-title" style="color: black; font-size: xx-large;">SUMERGETE EN LO QUE NOS HACE UNICOS. ¡NO TE LO PIERDAS!</h2>
+            <div class="contact-label">Book Through Call</div>
+
+            <a href="tel:+804001234567" class="body-1 contact-number hover-underline">(+51) 987557744</a>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">Read More</span>
+
+              <span class="text text-2" aria-hidden="true">Read More</span>
+            </a>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <video controls class="video" preload="metadata">
+              <source src="assets/images/martingarrix.mp4" type="video/mp4"> <!-- Cambia "tu_video.mp4" por la ruta de tu archivo de video -->
+              Tu navegador no soporta el elemento de video.
+            </video>
+            <div class="play-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="48px" height="48px">
+                <path d="M8 5v14l11-7z" />
+                <path d="M0 0h24v24H0z" fill="none" />
+              </svg>
+            </div>
+
+        </div>
+      </section>
+
+
+
+      <!--NUESTRAS EMPRESAS|-->
+      <section class="section menu" aria-label="menu-label" id="empresas">
+        <footer class="banner01">
+          <img  src="assets/images/banner03.jpeg"  alt="Footer imagen">
+      </footer>
+        <div class="container">
+
+          
+
+          <h2 class="headline-1 section-title text-center">Nuestras Empresas</h2>
+
+          <ul class="grid-list" style="align-items: center;">
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="">
+                  <img src="./assets/images/logo-bebyfees.png" width="200" height="180" loading="lazy" alt="Greek Salad"
+                    class="img-cover02">
+                </figure>
+
+                <div >
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Babyfees</a>
+                    </h3>
+
+                    <span class="badge label-1">Estacional</span>
+
+                  
+                  </div>
+
+                  <p class="card-text label-1">
+                    Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/logo-clavellave.png" width="180" height="130" loading="lazy" alt="Lasagne"
+                    class="img-cover02">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Clave y llave</a>
+                    </h3>
+
+              
+                  </div>
+
+                  <p class="card-text label-1">
+                    Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/logo-cuymacho.png" width="200" height="180" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover02">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">El Cuy Macho</a>
+                    </h3>
+
+                 
+                  </div>
+
+                  <p class="card-text label-1">
+                    Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="" >
+                  <img src="./assets/images/logo-h2m.png" width="210" height="300" loading="lazy" alt="Tokusen Wagyu"
+                    class="img-cover02">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">H2M y Asociados</a>
+                    </h3>
+
+                    <span class="badge label-1">Nuevo</span>
+
+                    
+                  </div>
+
+                  <p class="card-text label-1">
+                    Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/logo-Hac.png" width="150" height="120" loading="lazy" alt="Olivas Rellenas"
+                    class="img-cover02">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Hac Corporation</a>
+                    </h3>
+
+                    
+                  </div>
+
+                  <p class="card-text label-1" style="align-items: center;">
+                    Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/logo-inova.png" width="130" height="100" loading="lazy" alt="Opu Fish"
+                    class="img-cover02">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Inova Lulu</a>
+                    </h3>
+
+                    
+                  </div>
+
+                  <p class="card-text label-1">
+                    Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <p class="menu-text text-center" style="color: black;">
+            During winter daily from <span class="span">7:00 pm</span> to <span class="span">9:00 pm</span>
+          </p>
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">Ver mas </span>
+
+            <span class="text text-2" aria-hidden="true">Ver mas</span>
+          </a>
+
+          
+
+        </div>
+      </section>     
+
+
+
+
+
+
+
+
+
+
+
+      <!-- 
+        - #MENU
+      -->
+
+     
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi text-center has-bg-image"
+        style="background-color: var(--eerie-black-1);" aria-label="testimonials" id="contacto">
+        <div class="container">
+
+    
+          <h1 class="headline-1 section-title text-center" style="color: white;">Contacto</h1>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #RESERVATION
+      -->
+      <section class="reservation">
+        <div class="container">
+
+          <div class="form reservation-form bg-black-10">
+
+            <form action="" class="form-left">
+
+              <h2 class="headline-1 text-center" style="color: white;">Dejanos tus datos</h2>
+
+              <p class="form-text text-center">
+                Dejanos tus Datos y nos Comunicaremos​
+              </p>
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+
+                <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+              </div>
+
+             
+
+              <textarea name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Enviar Mensage</span>
+
+                <span class="text text-2" aria-hidden="true">Enviar Mensage</span>
+              </button>
+
+            </form>
+
+            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+
+              <h2 class="headline-1 text-center" style="color: white;">CONTACTANOS</h2>
+
+              <p class="contact-label">Booking Request</p>
+
+              <a href="tel:+88123123456" class="body-1 contact-number hover-underline">984465123</a>
+
+              <div class="separator"></div>
+
+              <p class="contact-label">Correo</p>
+
+              <address class="body-4">
+                contacto@lutecci.com
+              </address>
+
+              <p class="contact-label">Lunch Time</p>
+
+              <p class="body-4">
+                Monday to Sunday <br>
+                11.00 am - 2.30pm
+              </p>
+
+              <p class="contact-label">Dinner Time</p>
+
+              <p class="body-4">
+                Monday to Sunday <br>
+                05.00 pm - 10.00pm
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/banner04.jpeg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand ">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-lutecci.png" width="300" height="50" loading="lazy" alt="grilli home">
+          </a>
+
+          <p class="body-4 label-1" style="color: white;">
+            Como holding, promovemos responsabilidad, transparencia y diversificación para maximizar rendimientos, gestionar eficientemente costos y fomentar la innovación ética
+          </p>
+
+          <a href="mailto:booking@grilli.com" class="body-4 contact-link" style="color: white;">booking@grilli.com</a>
+
+          <a href="tel:+88123123456" class="body-4 contact-link" style="color: white;">Booking Request : +88-123-123456</a>
+
+          <p class="body-4" style="color: white;">
+            Open : 09:00 am - 01:00 pm
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <p class="title-1">Get News & Offers</p>
+
+          <p class="label-1">
+            Subscribe us & Get <span class="span">25% Off.</span>
+          </p>
+
+          <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Subscribe</span>
+
+              <span class="text text-2" aria-hidden="true">Subscribe</span>
+            </button>
+          </form>
+
+        </div>
+        
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline" style="color: white;">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline" style="color: white;">Menus</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline" style="color: white;">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline" style="color: white;">Our Chefs</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline" style="color: white;">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline" style="color: white;">Facebook</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline" style="color: white;">Instagram</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline" style="color: white;">Twitter</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline" style="color: white;">Youtube</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline" style="color: white;">Google Map</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright" style="color: white;">
+          &copy; 2024 Lutecci. All Rights Reserved | Crafted by <a href="https://github.com/codewithsadee"
+            target="_blank" class="link">Loth</a>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
