@@ -1558,7 +1558,16 @@ border-radius: 20px;}
 
 .footer-list {
   display: grid;
-  gap: 20px;
+  gap: 0px;
+  list-style-type: disc;
+  justify-items: start;
+}
+.footer-list  li{
+  list-style-type: disc;
+  margin: 0 0 0 20px;
+}
+.footer-list01{
+
 }
 
 .footer-link {
@@ -2073,7 +2082,7 @@ border-radius: 20px;}
    */
 
   .footer .grid-list {
-    grid-template-columns: 0.45fr 1fr 0.45fr;
+    grid-template-columns:  1fr   1fr  1fr  1fr;
     align-items: center;
   }
 
