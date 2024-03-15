@@ -374,6 +374,54 @@ color: aliceblue;
   z-index: 1;
 }
 
+.imagenc {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('/assets/images/banner04.jpeg'); /* Cambia por la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Fija la imagen de fondo */
+    overflow: hidden;
+}
+.imagenc01 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url('/assets/images/bannerlutecci02.png'); /* Cambia por la ruta de tu imagen */
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.contenido {
+    position: relative;
+    z-index: 1;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.column1{
+background-color: #FF000038;
+width: 43%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 80px;
+}
+
+.column2{
+  background-color: #34363BC7;
+  width: 56%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  }
+  input{
+    background-color: white;
+  }
 .slider-content{
   position: absolute;
   z-index: 1; /* Para asegurar que el contenido esté por encima del fondo */
@@ -390,12 +438,12 @@ color: aliceblue;
   padding: 50px;
   background-color: #888; /* Cambiado a un color gris para mayor visibilidad */
   width: 40%; /* Ajustado el ancho del contenedor para que el círculo no se vea deforme */
-  height: 102%;
+  height: 88%;
   display: flex; /* Cambiado a flexbox para centrar el contenido verticalmente */
   align-items: center; /* Centra el contenido verticalmente */
   justify-content: space-around; /* Coloca el contenido al final del contenedor */
-  border-top-right-radius: 44%; /* Radio de borde superior derecho */
-  border-bottom-right-radius: 53%; /* Radio de borde inferior derecho */
+  border-top-right-radius: 48%; /* Radio de borde superior derecho */
+  border-bottom-right-radius: 48%; /* Radio de borde inferior derecho */
   
 }
 
@@ -434,15 +482,15 @@ color: aliceblue;
 }
 
 .btn-secondary {
-  background-color: var(--gold-crayola);
-  color: var(--black);
+  background-color: black;
+  color: white;
 }
 .btn-secondary01 {
   background-color: #25D366;
   color: var(--black);
 }
 
-.btn-secondary::before { background-color: var(--smoky-black-1); }
+.btn-secondary::before { background-color:  red; }
 
 .btn-secondary .text-2 { color: var(--white); }
 
@@ -541,11 +589,11 @@ color: aliceblue;
 }
 
 .input-field {
-  background-color: var(--eerie-black-2);
-  color: var(--white);
+  background-color: white;
+  color: black;
   height: 56px;
   padding: 10px 20px;
-  border: 1px solid var(--white-alpha-10);
+  border: 1px solid black;
   margin-block-end: 20px;
   outline: none;
   transition: border-color var(--transition-2);
@@ -1319,6 +1367,11 @@ font-weight: 900;
 .form-left,
 .form-right { padding: 40px 20px 30px; }
 
+.form-left{
+  font-size: 15px;
+  color: black;
+}
+
 .input-field[type="date"] {
   text-transform: uppercase;
   padding-inline-end: 10px;
@@ -1756,7 +1809,10 @@ border-radius: 20px;}
     margin-inline: auto;
   }
 
-  .footer .input-wrapper { position: relative; }
+
+  .footer .input-wrapper { position: relative; 
+  
+  }
 
   .footer .input-field {
     margin-block-end: 0;
