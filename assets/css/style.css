@@ -2,14 +2,6 @@
   #index.css
 \*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -193,8 +185,11 @@ body.nav-active { overflow: hidden; }
 ::-webkit-scrollbar { width: 5px; }
 
 ::-webkit-scrollbar-track { background-color: transparent; }
+/*-----------------------------------*\
+  escroll de todo la pagina
+\*-----------------------------------*/
 
-::-webkit-scrollbar-thumb { background-color: var(--gold-crayola); }
+::-webkit-scrollbar-thumb { background-color: red; }
 
 
 
@@ -288,7 +283,7 @@ color: aliceblue;
 .contact-label { font-weight: var(--weight-bold); }
 
 .contact-number {
-  color: var(--gold-crayola);
+  color: #3F444B;
   max-width: max-content;
   margin-inline: auto;
 }
@@ -457,12 +452,14 @@ font-size: 80px;
   width: 200%;
   height: 200%;
   border-radius: var(--radius-circle);
-  background-color: var(--gold-crayola);
+  background-color: #3F444B;
   transition: var(--transition-2);
   z-index: -1;
 }
 
-.btn .text { transition: var(--transition-1); }
+.btn .text { transition: var(--transition-1) ; 
+      color: white;
+}
 
 .btn .text-2 {
   position: absolute;
@@ -470,7 +467,7 @@ font-size: 80px;
   left: 50%;
   transform: translateX(-50%);
   min-width: max-content;
-  color: var(--smoky-black-1);
+  color: white;
 }
 
 .btn:is(:hover, :focus-visible)::before { bottom: -50%; }
@@ -644,7 +641,7 @@ font-size: 80px;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--gold-crayola);
+  background-color: #34363BC7;
   z-index: 10;
   display: grid;
   place-content: center;
@@ -771,7 +768,7 @@ font-size: 80px;
 
 .navbar {
   position: fixed;
-  background-color: var(--smoky-black-1);
+  background-color: #D9D9D9;
   top: 0;
   left: -360px;
   bottom: 0;
@@ -1362,7 +1359,7 @@ font-weight: 900;
 
 .form-text .link {
   display: inline;
-  color: var(--gold-crayola);
+  color: red;
 }
 
 .form-right .headline-1 { margin-block-end: 40px; }
@@ -1600,7 +1597,7 @@ border-radius: 20px;}
 
 .copyright .link {
   display: inline;
-  color: var(--gold-crayola);
+  color: red;
   text-decoration: underline;
 }
 
@@ -1616,8 +1613,8 @@ border-radius: 20px;}
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: var(--gold-crayola);
-  color: var(--smoky-black-1);
+  background-color: #34363BC7;
+  color: white;
   font-size: 22px;
   width: 50px;
   height: 50px;
