@@ -263,8 +263,28 @@ color: aliceblue;
 .label-2 { font-size: var(--fontSize-label-2); }
 
 
+/*-----------------------------------*\
+  #whatsapp
+\*-----------------------------------*/
 
 
+.whatsapp {
+  position:fixed;
+  width:50px;
+  height:50px;
+  bottom:80px;
+  right:20px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:37px;
+  z-index:100;
+}
+
+.whatsapp-icon {
+  margin-top:7px;
+}
 
 /*-----------------------------------*\
   #REUSED STYLE
@@ -1232,11 +1252,7 @@ font-weight: 900;
 
 .menu .grid-list { margin-block-end: 50px; }
 
-.menu-card {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
+
 
 .hover\:card .card-banner { background-color: var(--gold-crayola); }
 
@@ -1273,7 +1289,7 @@ font-weight: 900;
 }
 
 .menu-card .card-text {
-  color: var(--quick-silver);
+  color: black;
   line-height: var(--lineHeight-4);
   text-align: justify;
 }
@@ -2339,7 +2355,11 @@ border-radius: 20px;}
 }
 
 
-
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .empresaslista {
+    margin: 82px 0px 0px 681px;
+  }
+}
 
 
 /**
@@ -2368,7 +2388,7 @@ border-radius: 20px;}
     left: 0;
   }
 
-
+ 
 
   /**
    * SPECIAL DISH
